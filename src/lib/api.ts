@@ -1,7 +1,7 @@
 // Gusion API Client with ngrok bypass headers
 
-const API_BASE_URL = "https://front-katheryn-personal00abhi-d9168ec1.koyeb.app";
-
+//const API_BASE_URL = "https://front-katheryn-personal00abhi-d9168ec1.koyeb.app";
+const API_BASE_URL = "https://gusback-production.up.railway.app";
 interface RequestOptions extends RequestInit {
   requiresAuth?: boolean;
   includeUserId?: boolean;
